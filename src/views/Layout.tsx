@@ -13,9 +13,7 @@ function Layout() {
   return (
     <ThemeProvider>
       <Header />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <aside />
       <footer />
     </ThemeProvider>
